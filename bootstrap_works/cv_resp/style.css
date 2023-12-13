@@ -1,0 +1,43 @@
+
+.image{
+    position: relative;
+  }
+  
+  .name{
+    position: absolute;
+    margin-top: 88%;
+    margin-left: 7%;
+  }
+  
+  .side1{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .side2{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #257e68;
+    align-items: center;
+  
+  }
+  .fr{
+    color: #257e68;
+    margin-left: 2%;
+  }
+  
+  .clr{
+    color: #257e68;
+    
+  }
+  
+  button{
+    background-color: #257e68;
+  
+  }

@@ -1,0 +1,40 @@
+                                                        ---git---
+
+git clone-->exact copy to all local devices from remote repo
+git push-->local workspace to remote repo(all changes made)
+git pull-->changes made to remote repo to local devices  
+
+local workspace----(git add -A)--->staging area--(git commit -m "message")-->local repo--->remote repo
+
+git init-->initialize git
+ls -A--->list all files
+git log-->shows all the commit
+git checkout commit id-->back to prev commit
+git checkout master-->current commit
+git status--changes made
+
+---steps---
+
+git init
+git status
+git add -A
+git commit -m "first commit"
+git remote add origin(paste)
+git push origin master
+
+
+---netlify---
+https://incredible-gingersnap-f6bc85.netlify.app/
+
+--other method--
+open git bash-->git clone (link)
+new folder appear--->copy paste contents-->
+open vs code in cmd
+git status
+git add -A
+git commit -m "message"
+git push origin main
+open github
+settings-->pages-->branch=main-->save
+path appears-->click
+

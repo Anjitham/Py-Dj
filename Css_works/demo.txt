@@ -1,0 +1,38 @@
+inline
+<h1 style="color:aqua">CSS</h1>
+<h2 style="color:aquamarine">Cascading Style Sheet</h2>
+
+internal:
+    tag selector
+    id selector
+    class selector
+
+---tag selector
+body{
+    background-color: black;
+
+}
+
+-----id selector
+<h1 id="main-head">New heading</h1>
+in css:
+#main-head{
+    color:green;
+    text-decoration: none;
+}
+
+------class selector
+ <ul>
+        <li class="text-danger">one</li>
+in css:
+.text-danger{
+    color: red;
+}
+
+link==./ to go out ../
+
+
+------------position proprty
+statis-default
+absolute--not rel to parent
+relative--rel to parent

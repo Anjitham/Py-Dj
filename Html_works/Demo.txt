@@ -1,0 +1,22 @@
+html-2 types-block element and inline element
+nav,aside,section,main,footer--semantics
+
+ul>li*3
+<ul type="circle (bullets appear as circles) default is disc
+
+(tr>td*3)*3
+drop down, select--->option---enter
+<label for="id_ph">Phone number</label>
+        <select name="" id="">
+            <option value="">+91</option>
+
+
+
+
+
+
+
+
+link
+
+https://us02web.zoom.us/j/89652014944?pwd=T0RDUGlKSkd0eGcwZ2lsbTZQVzBEUT09

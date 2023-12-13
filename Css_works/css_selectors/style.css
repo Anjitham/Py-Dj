@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(220, 242, 80);
+    color: aliceblue;
+
+}
+h1{
+    color: rgb(149, 165, 42);
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: beige;
+}
+#main-head{
+    color:green;
+    text-decoration: none;
+}
+.text-danger{
+    color: red;
+}
+.text-success{
+    color: green;
+}
+.text-underline{
+    text-decoration: underline;
+    text-decoration-color: rgb(229, 147, 47);
+}

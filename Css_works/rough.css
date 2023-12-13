@@ -1,0 +1,27 @@
+
+
+body{
+  background-color: rgb(218, 229, 228);
+  color: aliceblue;
+  /* position: relative; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  height: 400px;
+  width: 30%;
+  border: 2px  black;
+  border-style:double ;
+  border-radius: 30px;
+  background-color: rgb(13, 233, 181);
+  /* position: absolute;
+  left: 35%;
+  top: 25%; */
+}
+
+div{
+    text-align: center;
+    text-orientation: upright;
+}
