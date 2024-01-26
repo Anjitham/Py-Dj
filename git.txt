@@ -38,3 +38,9 @@ open github
 settings-->pages-->branch=main-->save
 path appears-->click
 
+
+CLONE
+git clone (link)
+env\Scripts\activate.bat
+cd (foldername)
+code .

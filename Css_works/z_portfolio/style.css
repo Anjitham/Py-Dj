@@ -1,0 +1,26 @@
+.displaphoto img{
+    width: 100%;
+}
+
+/* second page */
+.grid{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5;
+    grid-template-columns: 1fr 1fr ;
+    background-color: rgb(165, 220, 111);
+    border: 1px solid black;
+    grid-gap: 10px;
+}
+
+.nth :nth-child(1){
+    border: 1px solid black;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.nth :nth-child(2){
+    border: 1px solid black;
+    grid-column-start: 2;
+    grid-column-end:4 ;
+}

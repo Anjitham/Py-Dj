@@ -1,0 +1,15 @@
+show databases;
+use mydb;
+show tables;
+desc movies;
+insert into movies(id,name,duration,genre,language)values(1,"jailer",120,"action","tamil");
+insert into movies(id,name,duration,genre,language)values(2,"rdx",120,"action","malayalam");
+insert into movies(id,name,duration,genre,language)values(3,"salaar",140,"drama","telugu");
+insert into movies(id,name,duration,genre,language)values(4,"neru",160,"drama","malayalam");
+insert into movies(id,name,duration,genre,language)values(5,"animal",160,"action","hindi");
+select*from movies;
+select name from movies;
+select name,language from movies;
+select*from movies where language='malayalam';
+select*from movies where language!='malayalam';
+select*from movies where language='malayalam' and genre='action';

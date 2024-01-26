@@ -1,0 +1,21 @@
+---Mysql
+-->rdbms-Ex:mysql,maria db,postgress
+data will be splited to avoid data redundancy(duplicates)
+splitting called-Normalization
+-->types of rel:
+1->1
+1->M
+M->M
+M->1
+
+-->non relational db-Ex:mongo db
+not related
+
+-->data types
+int,float,char,varchar(specify max length),date,enum
+
+create table table_name (col_name d_type constraint)
+increment id automatically--auto_increment
+not rpt-unique
+
+cakebox,id,name,price,category,shape

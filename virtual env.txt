@@ -1,0 +1,150 @@
+VIRTUAL ENV
+
+pip lis
+pip install (name)
+
+isolated env for project
+
+--create env
+python -m virtualenv environment_name
+
+--command for activating virtual environmt
+envirnmt_name\scripts\activate.bat(order of files/folder)
+--in mac/ubuntu
+
+source env_name\bin\activate.bin
+# envirnmt_name> means success
+
+#install req in created env
+
+--go back to global
+deactivate
+
+--intsall req modules
+pip install
+
+
+-------------------------------------------------DJANGO----------------------------------------------------------------------
+
+      ---Commands---
+--new project creation
+django-admin startproject greetings(name)
+
+--open folder
+cd folder_name
+
+--move back to prev folder
+cd ..
+
+--run server
+python manage.py runserver 
+ 
+--create new application(main app splited to subfolders,those called application)
+python manage.py startapp myapp
+
+--create query
+python manage.py makemigrations
+
+--query file-->sqlite(table creation)
+python manage.py migrate  
+
+
+
+---------------------------------------Workflow------------------------------------------------------------------------------
+
+--django default port num=http://127.0.0.1:8000/
+http://127.0.0.1:->local host
+
+--activate in vscode
+ctrl+shift+p
+
+--close server
+ctrl+c
+
+--django web methods 
+get-->fetch from server
+post-->send data to server
+we need url and get  method to fetch data
+
+--django arch&details
+#arch--->model,view,template(MVT)
+
+functionalities are defined as views eg:register,login,logout..etc
+url endpoint will be created for all views created 
+server contain html pages-->templates
+database for each views-->models
+
+workflow=t-->b
+building approach=b-->t
+
+
+
+#add the name of created app in settings.py in the main folder
+
+{{}}----display
+{%%}--send
+
+req-->settings.py-->corsp project
+base_Dir=path of project
+
+alloed_host=allowed clients
+
+installed apps= in django should contain all the application needed to create the entire project(incl applications that we create)
+
+debug=True provide solution when error occurs(error in webpages)
+
+middleware=middleware works in the order
+ensures safety of working
+
+root_url_config=project file
+
+------------------------------------------------------ORM Query------------------
+
+ORM-object relational mapper
+--orm query to add
+Modelname.objects.create(column_name=value,column_name=value.....)
+from myapp import models
+
+--orm query to fetch all queries
+qs=Modelname.objects.all()
+
+--query to fetch details of specific movie
+qs=ModelName.objects.get(condtn)-->if not matching query doesnot exist
+qs=ModelName.objects.filter(condition)--->filter particular
+
+--django shell 
+python manage.py shell
+
+--update
+Movie.objects.filter(id=3).update(genre="Thriller")
+
+--delete
+qs=Movie.objects.filter(year__lt=2024)
+field lookup
+<  __lt
+<= __lte
+>  __gt
+>= __gte
+
+--not equal to(exclude)
+qs=Movie.objects.exclude(language="Hindi")
+excludes hindi and print all left
+
+--listing specific col
+qs=Movie.objects.all().values_list("genre") this give o/p of lsit of tuples,to remove that flatten it using-->flat=True
+ex:qs=Movie.objects.all().values_list("genre",flat=True)
+
+to get distinct genres use-->
+qs=Movie.objects.all().values_list("genre",flat=True).distinct()
+
+
+ctrl+shift+p-->python select interpretor-->enter interpretor path-->find--->(djangoworks\env\scripts\python)
+
+
+
+
+
+
+
+
+
